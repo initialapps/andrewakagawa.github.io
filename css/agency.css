@@ -43,7 +43,7 @@ a:hover,
 a:focus,
 a:active,
 a.active {
-    color: #AEBDD8;
+    color: #c32a08;
 }
 
 h1,
@@ -83,9 +83,9 @@ h6 {
 .btn-primary:active,
 .btn-primary.active,
 .open .dropdown-toggle.btn-primary {
-    border-color: #AEBDD8;
+    border-color: #c32a08;
     color: #fff;
-    background-color: #AEBDD8;
+    background-color: #c32a08;
 }
 
 .btn-primary:active,
@@ -135,9 +135,9 @@ fieldset[disabled] .btn-primary.active {
 .btn-xl:active,
 .btn-xl.active,
 .open .dropdown-toggle.btn-xl {
-    border-color: #f6bf01;
+    border-color: #c32a08;
     color: #fff;
-    background-color: #AEBDD8;
+    background-color: #c32a08;
 }
 
 .btn-xl:active,
@@ -184,7 +184,7 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .navbar-brand:focus,
 .navbar-default .navbar-brand:active,
 .navbar-default .navbar-brand.active {
-    color: #AEBDD8;
+    color: #c32a08;
 }
 
 .navbar-default .navbar-collapse {
@@ -349,6 +349,25 @@ section h3.section-subheading {
 .service-heading {
     margin: 15px 0;
     text-transform: none;
+}
+
+#survey {
+    padding: 50px 0px;
+    background-color:#da330e;
+    color: #FFFFFF;
+}
+
+#survey h3 {
+    color: #FFFFFF;
+    font-style: italic;
+    font-size: 24px;
+    margin: 10px 0px;
+}
+
+#survey .btn {
+    border-color: #FFFFFF;
+    margin: 15px 0px;
+    font-size: 24px;
 }
 
 #portfolio .portfolio-item {
